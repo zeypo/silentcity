@@ -1,6 +1,6 @@
 {{!< default}}
 
-<section id="entries" data-columns="2">
+<section id="entries" data-columns="2" class="post-tags">
   {{#foreach posts}}
     <article id="post-{{id}}" class="post type-post entry has-meta has-share">
       <header class="entry-header">
@@ -8,7 +8,7 @@
       </header>
 
       <div class="entry-content">
-        {{content}}
+        {{content words="100"}}...
       </div>
 
       <footer class="entry-meta">
