@@ -1,0 +1,25 @@
+/** Auteur - Fin d'article **/
+.entry-meta-author {
+    display: inline-block;
+    width: 100%;
+    margin: 40px 0;
+}
+.entry-meta-author .meta-avatard {
+    float:left;
+    width: 15%;
+    max-width: 60px;
+    border-radius:100%;
+}
+.entry-meta-author .author-block {
+    float:left;
+    width: 80%;
+    min-width:calc(95% - 60px);
+    margin-left: 5%;
+    border-bottom: 1px solid #eee;
+}
+.entry-meta-author .author-block .name {
+    display: block;
+    color:#333;
+    font-size: 14px;
+    font-weight: 500;
+}
