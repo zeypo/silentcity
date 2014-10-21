@@ -14,15 +14,15 @@
         <footer class="entry-meta">
             <div class="entry-meta-wrap">
 
-            <div class="entry-meta-author">
-                {{#author}}
-                    <img src="{{image}}" alt="{{name}}" class="meta-avatard">
-                    <div class="author-block">
-                        <span class="name">{{name}}</span>
-                        <p>{{bio}}</p>
-                    </div>
-                {{/author}}
-            </div>
+                <div class="entry-meta-author">
+                    {{#author}}
+                        <img src="{{image}}" alt="{{name}}" class="meta-avatard">
+                        <div class="author-block">
+                            <span class="name">{{name}}</span>
+                            <p>{{bio}}</p>
+                        </div>
+                    {{/author}}
+                </div>
 
                 <div class="entry-meta-items">
                     <div class="entry-meta-item entry-date">
@@ -47,8 +47,9 @@
 
                 {{> share-widget}}
 
-            </div>
-        </footer>
+            <div id="disqus_thread"></div>
+        </div>
+    </footer>
 
         <!-- Disqus Comments -->
         <!-- <div class="entry-comments">
@@ -66,3 +67,15 @@
     </article>
 
 {{/post}}
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'httpsilentcityfr'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>

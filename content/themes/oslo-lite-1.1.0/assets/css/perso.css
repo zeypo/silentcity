@@ -23,3 +23,8 @@
     font-size: 14px;
     font-weight: 500;
 }
+
+/** Commentaires **/
+#disqus_thread {
+    margin-top:50px;
+}
