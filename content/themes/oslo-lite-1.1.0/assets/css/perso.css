@@ -1,3 +1,9 @@
+/** Index **/
+.entry-content-image {
+    margin:0 auto;
+    max-width: 100%;
+}
+
 /** Auteur - Fin d'article **/
 .entry-meta-author {
     display: inline-block;

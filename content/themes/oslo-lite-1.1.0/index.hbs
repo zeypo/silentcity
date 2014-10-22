@@ -8,6 +8,9 @@
       </header>
 
       <div class="entry-content">
+        {{#if image}}
+          <img src="{{image}}" class="entry-content-image" alt="{{title}}">
+        {{/if}}
         {{content words="40"}}<a href="{{url}}" rel="bookmark">...</a>
       </div>
 
