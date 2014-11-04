@@ -42,15 +42,15 @@ jQuery(function($) {
             $('html, body').animate({'scrollTop': 0});
 
             $ajaxContainer.fadeOut(500, function() {
-                $latestPost = $newContent.filter('#latest-post');
-                $postIndex = $newContent.filter('#post-index');
+                //$latestPost = $newContent.filter('#latest-post');
+                //$postIndex = $newContent.filter('#post-index');
 
-                if (showIndex === true) {
-                    $latestPost.hide();
-                } else {
-                    $latestPost.show();
-                    $postIndex.hide();
-                }
+                // if (showIndex === true) {
+                //     $latestPost.hide();
+                // } else {
+                //     $latestPost.show();
+                //     $postIndex.hide();
+                // }
 
                 // Re run fitvid.js
                 $newContent.fitVids();
