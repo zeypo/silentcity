@@ -3,8 +3,8 @@
 
 /** Index **/
 .entry-content-image {
-    margin:0 auto;
-    max-width: 100%;
+    margin:0 auto !important;
+    max-width: 100% !important;
 }
 
 /** Auteur - Fin d'article **/
@@ -37,8 +37,3 @@
 #disqus_thread {
     margin-top:50px;
 }
-<<<<<<< HEAD
-=======
-
-/** Tags **/
->>>>>>> 1d2f92081f489ef299545c48dd85708ede14c9ee

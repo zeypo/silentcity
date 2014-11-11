@@ -9,7 +9,7 @@
 
       <div class="entry-content">
         {{#if image}}
-          <img src="{{image}}" class="entry-content-image" alt="{{title}}">
+          <a href="{{url}}" rel="bookmark"><img src="{{image}}" class="entry-content-image" alt="{{title}}"></a>
         {{/if}}
         {{content words="40"}}<a href="{{url}}" rel="bookmark">...</a>
       </div>
